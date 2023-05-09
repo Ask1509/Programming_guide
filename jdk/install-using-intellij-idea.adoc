@@ -1,0 +1,33 @@
+= Установка через Intellij IDEA
+
+*Download JDK* в Intellij IDEA устанавливает JDK локально: по умолчанию -- в домашнюю директорию пользователя.
+
+Устанавливайте JDK через Intellij IDEA, если хотите:
+
+* Чтобы IDEA сделала всё сама ⭐: скачала JDK, распаковала и подключила к проектам
+* Попробовать новую версию Java, не покидая IDE
+
+== Как это сделать
+
+* По шагам:
+. File
+. Project Structure
+. SDKs
+. Нажать "+"
+. Download JDK
+. <<choose-vendor-and-version,Выбрать версию и вендора>>
+. Download
+* Видео на странице https://www.jetbrains.com/idea/guide/tips/download-jdk/[Download JDK]
+
+[#choose-vendor-and-version]
+== Какую версию и вендора выбрать
+
+Если только знакомитесь с Java, то выберите:
+
+. 17-ю версию JDK
+. Вендор -- Oracle OpenJDK
+
+== См. также
+
+* https://rafael.codes/openjdk/[Overview of OpenJDK distributions] -- сравнение сборок JDK
+* https://www.petefreitag.com/item/911.cfm[Java LTS Version Roadmap and Guide]

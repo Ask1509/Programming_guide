@@ -1,0 +1,23 @@
+= Reachable references
+
+*Reachable references* -- заметки по программированию
+
+== Посты
+
+=== Intellij IDEA
+
+. link:intellij-idea/getting-started.adoc[Как установить Intellij IDEA 🛠]
+
+=== JDK
+
+. link:jdk/install-jdk.adoc[Как установить JDK ⚒]
+
+=== Частые ошибки 🔰
+
+. link:common-mistakes/scanner-and-system-in.adoc[Почему нельзя несколько раз создавать `Scanner`, связанный с `System.in`? 💥]
+. link:common-mistakes/why-no-crlf-to-create-a-new-line.adoc[Почему не нужно использовать `\r\n` в Java? 🚒]
+. link:common-mistakes/why-synchronized-on-both-setter-and-getter.adoc[Почему `synchronized` должен быть и у сеттера, и у геттера? 🚄]
+
+=== Паттерны
+
+. link:patterns/visitor.adoc[Visitor 🚶]
